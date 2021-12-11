@@ -1,0 +1,163 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Playfair+Display:wght@800&family=Signika&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Murecho:wght@300&family=Playfair+Display:wght@800&family=Signika&display=swap');
+
+body {background-color: #F9E8F2; font-size: 18px;}
+#principal {
+  width: 900px;
+  height:auto; overflow: hidden;
+box-sizing: border-box;
+  margin: auto;
+
+
+}
+header {display: flex;
+  width: 900px;
+  height: 100px;
+  border: 0px solid #000;
+  font-size: 0,5rem;
+
+}
+h2 {
+  font-family: 'Abril Fatface', cursive;
+font-family: 'Playfair Display', serif;
+font-family: 'Signika', sans-serif; text-align: center; text-decoration: none;
+font-size: 25px;}
+
+#logo {
+color: #E47ABA;
+  width: 230px;
+  height: 100px;
+  border: 0px solid #ED56B2;
+  float: left;
+}
+
+
+.menu {
+  width: 600px;
+  height: 50px;
+  border: 1 solid #ccc;
+  float: right;
+  margin-top: 40px;
+  background: #006699;
+  font-size: 0,5vw;
+
+
+}
+.menu ul li {
+  list-style: none;
+  float: left;
+  font-size: 0,5vw;
+
+}
+.menu ul li a hover{
+  background: #fff;
+  color: #006699;
+  transition: 1s; color 1s;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  padding: 10px 15px;
+  border: 0px solid #000;
+  color: #fff;
+}
+#slide {
+  margin-top: 10px;
+  width: 200px;
+  height: 300px;
+
+
+#categorias {
+  width: 900px;
+  height: auto; overflow: hidden;
+  border: 0px solid;
+  margin-top: 15px;
+font-size: 0,5vw;
+
+}
+.nombres {
+  color: #A21F6F;
+}
+#der {color: #A21F6F;}
+#izq{color: #A21F6F;}
+
+.uno {
+  width: 280px;
+  height: auto; overflow: hidden;
+  border: 1px solid #ccc;
+  float: left;
+  padding: 5px;
+  text-align: center; text-decoration: none;
+  color: red;
+}
+.parrafo1{
+  color: #030303  ;
+  text-align: justify; text-decoration: none;
+  font-family: 'Abril Fatface', cursive;
+font-family: 'Murecho', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Signika', sans-serif;
+
+
+}
+.dos {
+  margin-left: 12px;
+  margin-right: 12px;
+}
+.leer-mas {
+  text-decoration: none;
+  border: 1px solid #006699;
+  padding: 10px 20px 10px 20px;
+  margin: 10px;
+
+}
+.leer-mas:hover{
+background: #006699;
+color: #fff;
+transition: background 1s; color: 1s;
+}
+
+#info {width: 900px;
+  height: auto;overflow: hidden;
+  border: 0px solid #c0c0c0;
+  margin-top: 10px;
+}
+#izq{
+  width: 585px;
+  height:auto; overflow: hidden;
+  border: 1px solid #ccc;
+  float: left;
+  padding: 5px;
+}
+#der{
+  width: 290px;
+  height: 300px;
+  border: 1px solid #ccc;
+  float: right;
+}
+footer {
+  width: 900px;
+  height: auto;
+  text-align: center;
+}
+#footer p{
+  width: 500px;
+  text-align: center;
+}
+.redes-sociales {
+	padding: 10px;
+	background-color: inherit;
+}
+
+.redes-sociales img {
+	padding: 5px;
+	border-radius: 100%;
+	width: 50px;
+
+}
+
+.redes-sociales img:hover {
+	transform: scale(1.2);
+}

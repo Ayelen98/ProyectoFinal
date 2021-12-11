@@ -16,14 +16,13 @@ header {display: flex;
   width: 900px;
   height: 100px;
   border: 0px solid #000;
-  font-size: 0,5rem;
+
 
 }
 h2 {
   font-family: 'Abril Fatface', cursive;
 font-family: 'Playfair Display', serif;
-font-family: 'Signika', sans-serif; text-align: center; text-decoration: none;
-font-size: 25px;}
+font-family: 'Signika', sans-serif; text-align: center; text-decoration: none;}
 
 #logo {
 color: #E47ABA;
@@ -41,15 +40,11 @@ color: #E47ABA;
   float: right;
   margin-top: 40px;
   background: #006699;
-  font-size: 0,5vw;
-
-
 }
+
 .menu ul li {
   list-style: none;
   float: left;
-  font-size: 0,5vw;
-
 }
 .menu ul li a hover{
   background: #fff;
@@ -69,12 +64,6 @@ color: #E47ABA;
   height: 300px;
 
 }
-@media (max-whidth: 575px) {
-  header slide {display: none;}
-}
-}
-
-
 
 #categorias {
   width: 900px;

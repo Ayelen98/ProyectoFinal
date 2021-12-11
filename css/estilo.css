@@ -68,6 +68,13 @@ color: #E47ABA;
   width: 200px;
   height: 300px;
 
+}
+@media (max-whidth: 575px) {
+  header slide {display: none;}
+}
+}
+
+
 
 #categorias {
   width: 900px;
